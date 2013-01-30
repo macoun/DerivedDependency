@@ -103,7 +103,7 @@ Caching calcuated properties is optional. If you want to use it you must call `s
 
 ## Bonus - Core Data
 
-It will also work with `NSManagedObject` instances. The _ExampleCoreData_ project covers what you need to do of you work with CoreData.
+It works also with `NSManagedObject` instances. The _ExampleCoreData_ project covers what you need to do when you work with CoreData.
 
 ## License
 MIT-License
