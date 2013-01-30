@@ -37,7 +37,7 @@ The library recognizes class methods starting with `keyPathsForValuesAffectingDe
 
 Most of the time you want to cache values to avoid unnecessary recalculations. It is simply done by appending `updateDerived*` to the getter method you want to cache its value.
 
-	@dynamic totalsPrice;
+	@dynamic totalPrice;
 	
 	- (NSDecimalNumber *)updateDerivedTotalPrice {
 		return [items valueForKeyPath: @"@sum.totalPrice"];
